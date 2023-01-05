@@ -14,8 +14,8 @@ const LoginForm = () => {
         </div>
         <div className="row">
             <div className="col-md-3 col-4 mx-auto">
-                <form className="bg-light p-5" style={{marginTop: "-50px"}}>
-                    <p className="text-center font-large">Sign In</p>
+                <form className="bg-light p-5 rounded" style={{marginTop: "-50px", boxShadow: "0 .5rem 1rem rgba(255, 255, 255, .5)"}}>
+                    <h2 className="text-center font-large">Sign In</h2>
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" className="form-control"></input>
